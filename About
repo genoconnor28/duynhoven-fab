@@ -1,0 +1,36 @@
+// components/About.js
+export default function About() {
+  return (
+    <section id="about" style={{
+      background: '#f7fafc',
+      padding: '5rem 0'
+    }}>
+      <div style={{
+        maxWidth: '900px',
+        margin: '0 auto',
+        padding: '0 2rem'
+      }}>
+        <h2 style={{
+          fontSize: '2rem',
+          color: '#003153',
+          marginBottom: '1.2rem',
+          fontWeight: 700
+        }}>
+          About Us
+        </h2>
+        <p style={{fontSize: '1.1rem', color: '#222'}}>
+          Duynhoven Fabrication & Engineering is a Geelong-based, family-owned business with over 30 years’ experience in high quality steel fabrication, installation, and project management.
+        </p>
+        <ul style={{
+          margin: '2rem 0 0 1rem',
+          color: '#222',
+          fontSize: '1.1rem'
+        }}>
+          <li>Commercial and industrial fabrication specialists</li>
+          <li>Custom structural steelwork, onsite welding, and repairs</li>
+          <li>Serving Geelong, Bellarine, Surf Coast and Victoria-wide</li>
+        </ul>
+      </div>
+    </section>
+  );
+}
