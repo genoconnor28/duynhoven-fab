@@ -1,0 +1,42 @@
+// components/ShopifySection.js
+export default function ShopifySection() {
+  return (
+    <section id="shop" style={{
+      padding: '5rem 0',
+      background: '#fff'
+    }}>
+      <div style={{
+        maxWidth: '900px',
+        margin: '0 auto',
+        padding: '0 2rem',
+        textAlign: 'center'
+      }}>
+        <h2 style={{
+          fontSize: '2rem',
+          color: '#003153',
+          marginBottom: '1.2rem',
+          fontWeight: 700
+        }}>
+          Shop
+        </h2>
+        <p style={{fontSize: '1.1rem', color: '#222', marginBottom: '2rem'}}>
+          Purchase our custom-made fabrication products securely via our online store.
+        </p>
+        {/* Example Shopify Buy Button embed */}
+        <div>
+          {/* Replace this with your Shopify Buy Button code */}
+          <div style={{
+            background: '#f7fafc',
+            border: '1px dashed #003153',
+            padding: '2rem',
+            borderRadius: '1rem',
+            color: '#003153'
+          }}>
+            Shopify integration goes here.<br/>
+            (Paste your Buy Button code from Shopify here)
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
