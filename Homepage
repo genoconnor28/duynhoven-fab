@@ -1,0 +1,49 @@
+// components/Hero.js
+export default function Hero() {
+  return (
+    <section id="hero" style={{
+      position: 'relative',
+      minHeight: '65vh',
+      background: 'url(/images/hero.jpg) center/cover no-repeat',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      color: '#fff',
+      textAlign: 'center'
+    }}>
+      <div style={{
+        background: 'rgba(0, 49, 83, 0.78)',
+        padding: '3rem 2rem',
+        borderRadius: '1.5rem'
+      }}>
+        <h1 style={{
+          fontSize: '2.8rem',
+          fontWeight: 700,
+          marginBottom: '1.2rem'
+        }}>
+          Precision Engineering & Metal Fabrication
+        </h1>
+        <p style={{
+          fontSize: '1.3rem',
+          marginBottom: '2rem'
+        }}>
+          Duynhoven Fabrication & Engineering—Specialists in custom steel solutions for every project.
+        </p>
+        <a href="#contact" style={{
+          display: 'inline-block',
+          padding: '1rem 2.2rem',
+          background: '#fff',
+          color: '#003153',
+          fontWeight: 700,
+          fontSize: '1.1rem',
+          borderRadius: '7px',
+          boxShadow: '0 2px 8px rgba(0,0,0,0.10)',
+          textDecoration: 'none',
+          transition: 'background .2s'
+        }}>
+          Get In Touch
+        </a>
+      </div>
+    </section>
+  );
+}
